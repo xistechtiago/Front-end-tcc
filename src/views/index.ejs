@@ -1,0 +1,418 @@
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MecApp</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/img/favicon.png" rel="icon">
+  <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fontes do Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Pastas CSS -->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Modelo Principal Pasta CSS -->
+  <link href="/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Nome do Modelo: UpConstruction
+  * Updated: Aug 30 2023 with Bootstrap v5.3.1
+  * Modelo URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
+  * Autor: BootstrapMade.com
+  * Licenciatura: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Cabeçalho ======= -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- <img src="public/img/logo.png" alt=""> -->
+        <h1>MecWeb<span>.</span></h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="/" class="active">Início</a></li>
+          <li><a href="/veiculoList">Veículos</a></li>
+          <li><a href="/motoList">Motoristas</a></li>
+          <li><a href="/revisaoList">Revisões</a></li>
+          <li><a href="/manutencaoList">Manutenções</a></li>
+          <li><a href="/mecList">Mecânicos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header><!-- Fim do Cabeçalho -->
+
+  <!-- ======= Sessão Início ======= -->
+  <section id="hero" class="hero">
+
+    <div class="info d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 data-aos="fade-down">Bem Vindo a <span>MecWeb</span></h2>
+            <p data-aos="fade-up">Aqui você encontra o melhor gerenciamento da manutenção e revisão para seus veículos, para que então problemas como atrasos e faltas dos mesmo não sejam mais um problema. </p>
+            <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Começar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <div class="carousel-item active" style="background-image: url(/img/hero-carousel/hero-carousel-1.jpeg)"></div>
+      <div class="carousel-item" style="background-image: url(/img/hero-carousel/hero-carousel-2.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(/img/hero-carousel/hero-carousel-3.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(/img/hero-carousel/hero-carousel-4.webp)"></div>
+      <div class="carousel-item" style="background-image: url(/img/hero-carousel/hero-carousel-5.jpg)"></div>
+
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+  </section><!-- Fim da sessão Início  -->
+
+  <main id="main">
+
+    <!-- ======= Início da Sessão ======= -->
+    <section id="get-started" class="get-started section-bg">
+      <div class="container">
+
+        <div class="row justify-content-between gy-4">
+
+          <div class="col-lg-7 d-flex align-items-center" data-aos="fade-up">
+            <div class="content">
+          
+          </div>
+
+          
+          <div class="col-lg-10" data-aos="fade" >
+            <form action="/doLogin" method="post" class="php-email-form" align="center">
+                <div class="text-center mb-3">
+                    <h2  style="color: #FF8C00;">Login</h2>
+                    <p>Entre com :</p>
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fab fa-facebook-f"></i>
+                    </button>
+            
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fab fa-google"></i>
+                    </button>
+            
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fab fa-twitter"></i>
+                    </button>
+            
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fab fa-github"></i>
+                    </button>
+                  </div>
+            
+                  <p class="text-center">ou:</p>
+            
+                  <!-- Input Email -->
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="loginName">Email:</label>
+                    <input type="email" id="loginName" class="form-control" />
+                  </div>
+            
+                  <!-- Input Senha -->
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="loginPassword">Senha:</label>
+                    <input type="password" id="loginPassword" class="form-control" />
+                  </div>
+            
+                  <!-- Layout de grade de 2 colunas -->
+                  <div class="row mb-4">
+                    <div class="col-md-6 d-flex justify-content-center">
+                      <!-- Checkbox -->
+                      <div class="form-check mb-3 mb-md-0">
+                        <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
+                        <label class="form-check-label" for="loginCheck"> Lembrar-me </label>
+                      </div>
+                    </div>
+            
+                    <div class="col-md-6 d-flex justify-content-center">
+                      <!-- Simple link -->
+                      <a href="#!">Esqueceu a senha?</a>
+                    </div>
+                  </div>
+                   <div class="loading">Loading</div>
+                   <div class="error-message"></div>
+                    <div class="sent-message"></div>
+            
+                  <!-- Botão Submit -->
+                  <button type="submit" class="btn btn-primary btn-block mb-4">Entrar</button>
+            
+                  <!-- Botões de registro -->
+                  <div class="text-center">
+                    <p>Não tem uma conta? <a href="#!">Cadastre-se</a></p>
+                  </div>
+            </form>
+          </div><!-- Fim do formulário da sessão-->
+
+
+          <div class="col-lg-1" data-aos="fade" >
+          </div>
+
+
+          <div class="col-lg-10" data-aos="fade" >
+            <form action="forms/quote.php" method="post" class="php-email-form" align="center">
+                <div class="text-center mb-3">
+                    <h2 style="color: #FF8C00;">Cadastro</h2>
+                    <p>Cadastre-se com:</p>
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fab fa-facebook-f"></i>
+                    </button>
+            
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fab fa-google"></i>
+                    </button>
+            
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fab fa-twitter"></i>
+                    </button>
+            
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fab fa-github"></i>
+                    </button>
+                  </div>
+            
+                  <p class="text-center">ou:</p>
+            
+                  <!-- Input Nome -->
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="registroNome">Nome:</label>
+                    <input type="text" id="registroNome" class="form-control" />
+                  </div>
+            
+                  <!-- Input CPF -->
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="registroCPF">CPF:</label>
+                    <input type="number" id="registroCPF" class="form-control" />
+                  </div>
+            
+                  <!-- Input Cargo -->
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="registroCargo">Cargo na empresa:</label>
+                    <input type="text" id="registroCargo" class="form-control" />
+                  </div>
+
+                  <!-- Input Email -->
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="registroEmail">Email:</label>
+                    <input type="email" id="registroEmail" class="form-control" />
+                  </div>
+            
+                  <!-- Input Senha -->
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="registroSenha">Senha:</label>
+                    <input type="password" id="registroSenha" class="form-control" />
+                  </div>
+            
+                  <!--Input Repetir Senha -->
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="registroRepitaSenha">Repita a senha:</label>
+                    <input type="password" id="registroRepitaSenha" class="form-control" />
+                  </div>
+            
+                  <!-- Checkbox -->
+                  <div class="form-check d-flex justify-content-center mb-4">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="registroCheck" checked
+                      aria-describedby="registerCheckHelpText" />
+                    <label class="form-check-label" for="registroCheck">
+                      Eu concordo com todos os termos 
+                    </label>
+                  </div>
+            
+                  <!-- Botão Submit -->
+                  <button type="submit" class="btn btn-primary btn-block mb-3">Cadastrar</button>
+            </form>
+          </div><!-- Fim do formulário Cadastro -->
+        </div>
+
+   </section><!-- Fim da Sessão -->
+
+    <!-- ======= Constructions Section ======= -->
+    <section id="constructions" class="constructions">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Constructions</h2>
+          <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(public/img/constructions-1.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Eligendi omnis sunt veritatis.</h4>
+                    <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(public/img/constructions-2.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Possimus ut sed velit assumenda</h4>
+                    <p>Sunt deserunt maiores voluptatem autem est rerum perferendis rerum blanditiis. Est laboriosam qui iste numquam laboriosam voluptatem architecto. Est laudantium sunt at quas aut hic. Eum dignissimos.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(public/img/constructions-3.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Error beatae dolor inventore aut</h4>
+                    <p>Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam quae quaerat ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit. Ut sunt temporibus nulla culpa.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(public/img/constructions-4.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Expedita voluptas ut ut nesciunt</h4>
+                    <p>Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos doloremque architecto illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut aliquid ea dolores libero nobis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Constructions Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>MecWeb</h3>
+                <strong>Telefone:</strong> (99)99999-9999 <br>
+                <strong>Email:</strong> mecweb@email.com<br>
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End footer info column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Veículos</a></li>
+              <li><a href="#">Motoristas</a></li>
+              <li><a href="#">Termos de Privacidade</a></li>
+              <li><a href="#">Política de privacidade</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+          </div><!-- End footer links column-->
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span style="color:#FF8C00">MecWeb</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/vendor/aos/aos.js"></script>
+  <script src="/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/js/main.js"></script>
+
+</body>
