@@ -96,5 +96,10 @@ router.post("/manutencaoRegister", (req, res)=>{
     res.send('Criar controller')
 });
 
+//rota de contato
+router.get("/contato", (req, res)=>{
+    res.render('contato', {Title: 'Pagina de contato'});
+});
+
 router.use(router);
 module.exports = router;
