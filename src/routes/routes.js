@@ -31,7 +31,7 @@ router.post("/doLogin", (req, res)=>{
         alert('Usuario e senha inválidos');
 });
 
-//crud usuario
+//rota usuario
 router.get("/userList", (req, res)=>{
     res.send('Criar controller')
 });
@@ -50,25 +50,25 @@ router.delete("/userDelete", (req, res)=>{
     res.send('Criar controller'+ id)
 });
 
-//crud mecanico
+//rota mecanico
 router.get("/mecList", (req, res)=>{
-    res.send('Criar controller')
+    res.render('mecanicos', {Title: 'Lista mecanicos'});
 });
 
 router.post("/mecRegister", (req, res)=>{
     res.send('Criar controller')
 });
 
-//crud motorista
+//rota motorista
 router.get("/motoList", (req, res)=>{
-    res.send('Criar controller')
+    res.render('motoristas', {Title: 'Lista motoristas'});
 });
 
 router.post("/motoRegister", (req, res)=>{
     res.send('Criar controller')
 });
 
-//crud veiculo
+//rota veiculo
 router.get("/veiculoList", (req, res)=>{
     res.render('veiculos', {Title: 'Listagem de veiculos'});
 
@@ -78,18 +78,18 @@ router.post("/veiculoRegister", (req, res)=>{
     res.send('Criar controller')
 });
 
-//crud revisoes
+//rota revisoes
 router.get("/revisaoList", (req, res)=>{
-    res.send('Criar controller')
+    res.render('revisoes', {Title: 'Lista de revisoes'});
 });
 
 router.post("/revisaoRegister", (req, res)=>{
     res.send('Criar controller')
 });
 
-//crud manutenções
+//rota manutenções
 router.get("/manutencaoList", (req, res)=>{
-    res.send('Criar controller')
+    res.render('manutencoes', {Title: 'Lista manutenção'});
 });
 
 router.post("/manutencaoRegister", (req, res)=>{
