@@ -1,6 +1,7 @@
 //require express
 const Router  = require("express").Router;
 const router = Router();
+const querys = require('../models/login')
 
 //controllers
 const AutenticacaoController = require("../controllers/AutenticacaoController");
@@ -9,6 +10,7 @@ const MotoristasController = require("../controllers/MotoristasController");
 const RevisoesController = require("../controllers/RevisoesController");
 const UsuariosController = require("../controllers/UsuariosController");
 const VeiculosController = require("../controllers/VeiculosController");
+const modelLogin = require("../models/login");
 
 //rota inicial
 router.get("/", (req, res) => {
@@ -16,9 +18,9 @@ router.get("/", (req, res) => {
 });
 
 //rotas de login
-router.get("/login", (req, res)=>{
-    const resposta = AutenticacaoController.Login();
-    res.send(resposta);
+router.get("/login", async (req, res)=>{
+    const query = await modelLogin.getlogin();
+    res.send(query);
 });
 
 router.post("/doLogin", (req, res)=>{

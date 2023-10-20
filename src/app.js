@@ -3,7 +3,6 @@ const path = require('path');
 const app = express();
 const port = 3000;
 const router = require("./routes/index");
-const con = require("./config/database");
 
 // View engine 
 app.set('view engine', 'ejs');
